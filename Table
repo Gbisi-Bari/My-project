@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Names Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 30px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #e6f2ff;
+        }
+        tr:hover {
+            background-color: #cce5ff;
+        }
+    </style>
+</head>
+<body>
+    <h2>List of Names</h2>
+    <table>
+        <tr>
+            <th>S/N</th>
+            <th>Name</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mary</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>David</td>
+        </tr>
+    </table>
+</body>
+</html>
